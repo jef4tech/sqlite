@@ -12,7 +12,7 @@ import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "barcode";
-    private static final int DATABASE_VERSION = 17;
+    private static final int DATABASE_VERSION = 22;
     private static final String TAG = "DBAdapter";
 
     public DatabaseHelper(Context context) {
